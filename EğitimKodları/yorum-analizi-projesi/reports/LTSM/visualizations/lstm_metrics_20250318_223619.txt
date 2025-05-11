@@ -1,0 +1,26 @@
+LSTM Model Metrikleri
+===================
+
+Tarih: 2025-03-18 22:36:21
+
+Confusion Matrix:
+[[1827  431  506]
+ [ 342 1926  496]
+ [  44   77 2644]]
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.83      0.66      0.73      2764
+           1       0.79      0.70      0.74      2764
+           2       0.73      0.96      0.82      2765
+
+    accuracy                           0.77      8293
+   macro avg       0.78      0.77      0.77      8293
+weighted avg       0.78      0.77      0.77      8293
+
+Model Özeti:
+Accuracy: 0.7714
+F1 Score: 0.7667
+Macro Avg: 0.7667
+Weighted Avg: 0.7667

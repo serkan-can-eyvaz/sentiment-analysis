@@ -1,0 +1,56 @@
+node_modules/
+Stopwords/
+
+yorum-analiz-web/frontend/node_modules/
+# Derlenmiş dosyalar ve geçici dosyalar
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+
+# IDE ve editör ayarları
+.vscode/
+.idea/
+*.iml
+
+# Jupyter checkpoint dosyaları
+.ipynb_checkpoints/
+
+# Log dosyaları
+*.log
+
+# Veritabanı ve büyük veri dosyaları
+*.sqlite3
+*.db
+*.csv
+*.tsv
+*.json
+
+# Model ağırlıkları veya eğitim çıktıları
+*.h5
+*.pt
+*.pth
+*.onnx
+*.joblib
+*.sav
+*.pkl
+
+# Geçici veya proje içi büyük medya dosyaları
+*.mp4
+*.avi
+*.mov
+*.png
+*.jpg
+*.jpeg
+*.zip
+
+# PyCharm projeleri için özel
+*.idea/
+*.pyc
+*.pyo
+*.pyd
+*.cache/
+*.coverage
+*.egg-info/
+dist/
+build/
